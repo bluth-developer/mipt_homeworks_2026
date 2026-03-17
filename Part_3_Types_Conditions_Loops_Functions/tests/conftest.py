@@ -1,10 +1,8 @@
-from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
-from typing import NotRequired, TypedDict, Unpack
+from typing import NotRequired, TypedDict
 
 from faker import Faker
-import pytest
 from polyfactory.factories import DataclassFactory
 from polyfactory.pytest_plugin import register_fixture
 
