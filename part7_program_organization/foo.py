@@ -1,4 +1,9 @@
-import sys
+# import sys
+
+
+sys = ...
+
+# https://github.com/dabeaz-course/practical-python/blob/master/Notes/03_Program_organization/01_Script.md
 
 """
 typedef struct {
@@ -92,3 +97,10 @@ case TARGET(IMPORT_NAME): {
 
 
 "https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/"
+
+
+if __name__ == "__main__":
+    ...
+
+# Если `python foo.py` - __name__ это __main__
+# Если import foo - __name__ это foo
